@@ -960,7 +960,7 @@ Stat getStats(string clip, string codec, string conf){
         }
 
         if( strcmp( entry->d_name, "ssim.txt" ) == 0){
-            float num;
+            float num=0;
             foundSSIM = true;
             string file = "./Clips/" + clip + "/" + codec + "/" + conf + "/";
             file = file + entry->d_name;
