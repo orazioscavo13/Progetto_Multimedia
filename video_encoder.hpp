@@ -29,7 +29,7 @@ public:
     float dimCompressa;
 };
 
-
+string getClipClass(string label);
 bool nomeConfigurazioneUsato(string name);
 char showMenu();
 void creaConfigurazione();

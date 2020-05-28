@@ -673,7 +673,8 @@ void mostraRisultatiConfigurazione(){
         Stat statH264 = getStats(clips[k], "libx264", confName);
 
         string label = clips[k];
-        label = label + " (" + printRound(statMpeg2.dimOriginale,2) + " KB)";
+        string classe = getClipClass(label);
+        label = label + " (" + classe + "-" + printRound(statMpeg2.dimOriginale,2) + " KB)";
 
         printRigaStatisticheMultiple(label, statMpeg2,statVp9,statH264, false);
     }
@@ -1200,4 +1201,14 @@ string printRound(float var, int decimal){
         endIndex = endIndex + decimal + 1;
     }
     return ret.substr(0,endIndex);
+}
+
+string getClipClass(string label){
+    if(strcmp(label.c_str(), "Akiyo") == 0 || strcmp(label.c_str(), "Container") == 0 || strcmp(label.c_str(), "Hall") == 0){
+        return "A";
+    }else if(strcmp(label.c_str(), "Coastguard") == 0 || strcmp(label.c_str(), "News") == 0){
+        return "B";
+    }
+
+    return "?";
 }
