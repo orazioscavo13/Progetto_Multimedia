@@ -7,7 +7,7 @@ Wrapper for Ffmpeg that allows the definition of customized configurations for t
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [Dependencies](#dependencies)
-- [Testing](#running-for-test)
+- [Running](#running)
 
 
 
