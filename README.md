@@ -1,5 +1,5 @@
 # Progetto_Multimedia
-Wrapper for Ffmpeg that allows the definition of customized configurations for the compression and the visualization of the results obtained in terms of compression ratio, execution time and output quality (SSIM and PSNR metrics).
+Wrapper for Ffmpeg that allows the definition of customized configurations for video compression and the visualization of the results obtained in terms of compression ratio, execution time and output quality (SSIM and PSNR metrics).
 
 ## Table of Contents
 
