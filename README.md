@@ -39,10 +39,10 @@ References available (italian only) at:
 Once you have installed FFMpeg on your system you can execute the tool following the next steps
 
 #### 1 - Clone the project
-- Start Command Prompt window (cmd.exe).
+- Open terminal (or Start Command Prompt for windows)
 - On the command line, write
   - ```git clone https://github.com/orazioscavo13/Progetto_Multimedia.git ```
 
 #### 2 - Compile and run the project
-- Compile the souce file "video_encoder.cpp" (you can use any C++ compiler depending on the system you are using)
+- Compile the source file "video_encoder.cpp" (you can use any C++ compiler depending on the system you are using)
 - Run the output executable (IMPORTANT: The executable has to be located at the same location of the "video_encoder.cpp" file)
